@@ -1,0 +1,27 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(0, 118, 220);
+}
+
+.name-hgh{
+    color: rgb(255, 169, 21);
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+    margin-top: 30px;
+}
