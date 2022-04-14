@@ -11,13 +11,25 @@ h1{
     color: tomato;
     
 }
+h2{
+    font-size: 40px;
+    color:tomato ;
+}
 
-.name-hgh{
+.no-chng{
+    color: black;
+    margin-left: 75px;
+    
+    
+}
+
+.org-hgh{
     color: rgb(255, 169, 21);
 }
 
 p{
     text-align: justify;
+    color: dimgray;
 }
 .half-width{
     width: 40%;
@@ -27,10 +39,12 @@ p{
 }
 
 .half-width img{
-    width: 70%;
+    width: 100%;
     margin-top: 30px;
-    float: right;
+    
 }
+
+
 
 .banner{
     background-image: url("images/top-banner.png");
@@ -40,6 +54,7 @@ p{
 
 section{
     height: 500px;
+    padding-bottom: 180px;
 }
 
 .link-b{
@@ -49,5 +64,32 @@ section{
     border-radius: 30px;
     color: white;
     font-weight: bold;
+
+}
+
+.single-exp{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 60%;
+    padding: 20px;
+    background-color: white;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 
 }
