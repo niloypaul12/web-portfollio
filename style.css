@@ -17,7 +17,7 @@ h2{
 }
 
 .no-chng{
-    color: black;
+    color: orange;
     margin-left: 75px;
     
     
@@ -92,4 +92,9 @@ section{
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 
+}
+
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
